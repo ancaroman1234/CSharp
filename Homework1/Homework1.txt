@@ -1,0 +1,21 @@
+using System.Runtime.CompilerServices;
+class HW_2
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("problem4");
+        Problem4();
+
+    }
+    public static void Problem4()
+    {
+        for (int i = 20; i >= 1; i--)
+        {
+            if (i % 2 == 1)
+            {
+                Console.WriteLine(i);
+
+            }
+        }
+    }
+}
